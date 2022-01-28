@@ -17,9 +17,9 @@
   "contributes": {
     "themes": [
       {
-        "label": "Alabaster Chalice Light",
+        "label": "Chalice Solarized Light",
         "uiTheme": "vs",
-        "path": "./themes/alabaster-chalice-light.json"
+        "path": "./themes/chalice-solarized-light.json"
       }
     ]
   }
