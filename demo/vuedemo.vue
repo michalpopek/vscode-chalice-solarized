@@ -1,11 +1,16 @@
 <template>
   <div>
     <button @click="getNewIntent" :class="{ disabled: uiState === 'listening' }"></button>
+    <HelloWorld />
   </div>
 </template>
 
 <script>
+import HelloWorld  from '@/components/HelloWord.vue';
 export default {
+  components: {
+    HelloWorld
+  },
   props: {
     aborted: {
       type: Boolean,
