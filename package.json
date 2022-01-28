@@ -3,9 +3,13 @@
   "displayName": "Chalice Solarized",
   "description": "The solarized version of the Chalice theme for VS Code",
   "version": "0.0.1",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/michalpopek/vscode-chalice-solarized.git"
+  },
+  "bugs": {
+    "url": "https://github.com/artlaman/vscode-chalice-solarized/issues"
   },
   "publisher": "michalpopek",
   "engines": {
